@@ -49,7 +49,7 @@
 // }).catch((error) => console.error('Db Error : ', error));
 require('dotenv').config();
 
-const express = require('express');
+const express = require('express;
 
 const bodyParser = require('body-parser');
 
@@ -81,7 +81,7 @@ const OrderRoute = require('./routers/OrderRouter');
 
 const PORT = process.env.PORT || 3000;
 
-const MONGODB_URI = process.env.MONGODB_URIq;
+const MONGODB_URI = process.env.MONGODB_URI;
 
 // Health check
 
