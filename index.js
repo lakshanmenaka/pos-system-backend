@@ -49,7 +49,7 @@
 // }).catch((error) => console.error('Db Error : ', error));
 require('dotenv').config();
 
-const express = require('express');
+const express = require('express
 
 const bodyParser = require('body-parser');
 
