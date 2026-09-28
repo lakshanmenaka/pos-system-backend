@@ -61,7 +61,7 @@ const app = express();
 
 app.use(
     cors({
-        origin: 'http://goopiy.online',
+        origin: 'https://goopiy.online',
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization'],
     })
