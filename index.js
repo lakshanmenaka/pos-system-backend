@@ -39,7 +39,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 // Health check
 
-app.get('/testbackend', (req, resp) => {
+app.get('/test', (req, resp) => {
 
     return resp.json({ message: 'Server Started..' });
 
